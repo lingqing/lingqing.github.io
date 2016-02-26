@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "QT+OpenCV 配置"
+date:   2016-02-26 16:10:33 +0800
+categories: jekyll update
+---
+Qt 5.5+VS2010+OpenCV 2.4.10的环境配置
+====
+普通安装方法见博客
+**《Qt 5.2+VS2012+OpenCV 2.4.7的环境配置》**[https://www.librehat.com/qt-5-2-vs2012-opencv-2-4-7-dev-environment-setup-tutorial/](https://www.librehat.com/qt-5-2-vs2012-opencv-2-4-7-dev-environment-setup-tutorial/)
+
+## 问题 ##
+无法打开包含头文件
+ “could not open include file:***.hpp”
+并且检查各种配置都无误的情况下，发现是应该进行重新qmake。
+重新qmake：You have to run qmake(build->run qmake) to validate changes in the pro file
+
+致谢参考：
+1. [https://www.librehat.com/qt-5-2-vs2012-opencv-2-4-7-dev-environment-setup-tutorial/](https://www.librehat.com/qt-5-2-vs2012-opencv-2-4-7-dev-environment-setup-tutorial/ "Qt 5.2+VS2012+OpenCV 2.4.7的环境配置")
+2. [http://stackoverflow.com/questions/19048098/includepath-in-qmake-project-file-doesnt-work](http://stackoverflow.com/questions/19048098/includepath-in-qmake-project-file-doesnt-work)
