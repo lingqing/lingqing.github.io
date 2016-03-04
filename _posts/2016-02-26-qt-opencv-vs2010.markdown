@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_user
 title:  "QT+OpenCV 配置"
 date:   2016-02-26 16:10:33 +0800
 categories: jekyll update

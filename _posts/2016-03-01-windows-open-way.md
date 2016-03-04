@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_user
 title: "Windows  打开方式[ 程序 ] 选择"
 description: ""
 category: 
